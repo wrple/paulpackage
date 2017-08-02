@@ -1,0 +1,11 @@
+# repo files
+node_modules
+.nyc_output
+coverage
+
+# build files
+bin
+npm-debug.log
+
+# Misc
+.DS_Store
