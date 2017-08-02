@@ -1,6 +1,6 @@
 {
   "name": "@wr/paulpackage",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "Boilerplate for private modules",
   "main": "bin/index.js",
   "scripts": {
@@ -9,8 +9,7 @@
     "develop": "watch 'npm run build' src",
     "lint": "eslint .",
     "prepublish": "npm run build",
-    "test": "cross-env NODE_ENV=coverage nyc mocha --compilers js:babel-core/register --require test/bootstrap.js",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "test": "cross-env NODE_ENV=coverage nyc mocha --compilers js:babel-core/register --require test/bootstrap.js"
   },
   "author": "webteam@worldremit.com",
   "license": "ISC",
@@ -29,8 +28,7 @@
     "mocha": "^3.4.2",
     "nyc": "^11.0.2",
     "sinon": "^2.3.5",
-    "watch": "^1.0.2",
-    "semantic-release": "^6.3.6"
+    "watch": "^1.0.2"
   },
   "babel": {
     "presets": [
